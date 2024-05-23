@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 $curl = curl_init();
 curl_setopt($curl, CURLOPT_URL, "https://accounts.spotify.com/api/token");
 curl_setopt($curl, CURLOPT_POST, 1);
@@ -11,3 +13,4 @@ echo $result;
 curl_close($curl);
 
 $token = json_decode($result)->access_token;
+$_SESSION['token'] = $token;
