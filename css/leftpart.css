@@ -1,0 +1,141 @@
+.left-part-page{
+    display: flex;
+    flex-direction: column;
+    width: 26%;
+    margin-left: 12px;
+    margin-right: 14px;
+}
+
+.left-part-page a{
+    color: white;
+    text-decoration: none;
+}
+
+.home-search-container{
+    display: flex;
+    flex-direction: column;
+    color: lightgray;
+    width: 100%;
+    height: 18%;
+    background-color: #121212;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.home-search{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.home-search:hover{
+    font-weight: bold;
+    color: white;
+}
+
+.library{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 74%;
+    background-color: #121212;
+    border-radius: 10px;
+    padding: 10px;   
+}
+
+.header-library{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.mylibrary span{
+    font-weight: bold;
+    color: lightgray;
+}
+
+.mylibrary:hover span{
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+.library svg{
+    margin-bottom: 7px;
+    padding-right: 10px;
+}
+
+.search-playlist svg{
+    padding-right: 10px;
+    margin-top: 5px;
+}
+
+.filter-myplaylist{
+    display: flex;
+    padding: 15px;
+}
+
+
+.container-overflow{
+    overflow-y: auto;
+    height: 75%;
+}
+
+.search-playlist{
+    display: flex;
+    justify-content: space-between;    
+    padding: 15px 5px 10px 15px;
+}
+
+.recents:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.myplaylist-container{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 5px 5px 15px;
+}
+
+.myplaylist-item, .myevent-item, .last8-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    width: 95%;
+    border-radius: 5px;
+}
+
+.myplaylist-item:hover, .myevent-item:hover, .last8-item:hover{
+    opacity: 0.6;
+    background-color: #5a5757;
+}
+
+.myplaylist-img, .last8-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    padding-right: 11px;
+}
+
+.myartist-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-right: 8px;
+}
+
+.myplaylist-desc{
+    display: flex;
+    flex-direction: column;
+}
+
+.myplaylist-desc span{
+    color: lightgray;
+}

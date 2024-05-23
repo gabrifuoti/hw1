@@ -1,0 +1,108 @@
+    /* REPRODUCTION PART */
+.signup-div{
+    background: -webkit-gradient(linear, left top, right top, from(#af2896), to(#509bf5)); 
+    width: 98%;
+    height: 8%;
+    bottom:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.signup-div:hover{
+    opacity: 0.9;
+}
+
+.signup-div a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.reprod{
+    background-color: black; 
+    width: 98%;
+    height: 8%;
+    bottom:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.reprod-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.reprod-buttons .icon{
+    padding: 5px;
+}
+
+.reprod-bar{    
+    width: 450px;
+    margin-left: 10px;
+}
+
+.reprod-song{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.reprod-song .icon{
+    margin-left: 15px;
+}
+
+.reprod-song-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.reprod-song span{
+    color: lightgray;
+}
+
+.reprod-song img{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.reprod-play{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    position: absolute;
+    left: 35%;
+}
+
+.reprod-play-buttons{
+    display: flex;
+    width:250px;    
+    left: 35%;
+}
+
+.reprod-play span{
+    color: lightgray;
+    margin: 5px;
+}
+
+.reprod-play .icon{
+    width: 30px;
+    height: 30px;    
+}
+
+input[type="range"]{    
+    accent-color: lightgray;
+    margin-right: 10px;
+    height: 5px;
+}
+
+input[type="range"]:hover{    
+    accent-color: #1ed760;
+}

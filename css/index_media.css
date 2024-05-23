@@ -1,0 +1,51 @@
+@media (max-width: 500px) {
+    
+    body{
+        font-size: 10px;
+    }
+
+    .page{
+        width: 90%;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .left-part-page{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .home-search-container{
+        flex-direction: row;
+        justify-content: space-around;
+        height: 100%;
+    }
+
+    .library{
+        display: none;
+    }
+
+    .right-part-page{
+        width: 100%;
+    }
+
+    .home-section-list{
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+
+    .home-section-item{
+        width: 80px;
+        height: 150px;
+    }
+
+    .last8-item{
+        width: 45%;
+    }
+
+    .scrollbar-fixed{
+        width: 80%;
+        top: 0;
+    }
+}
