@@ -53,7 +53,7 @@ if (isset($_POST["email"]) && isset($_POST["password"]) && isset($_POST["usernam
 <html>
 
 <head>
-    <title>Sign up - Spotify</title>
+    <title>Sign up • Spotify</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="images/logo.png" rel="icon">
     <link href="css/signup.css" rel="stylesheet">
